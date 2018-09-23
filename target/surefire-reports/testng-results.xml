@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-22T21:56:10Z" name="TestNgMavenAutomation Suite" finished-at="2018-09-22T21:58:53Z" duration-ms="162817">
+    <groups>
+    </groups>
+    <test started-at="2018-09-22T21:56:10Z" name="Chrome Test" finished-at="2018-09-22T21:58:53Z" duration-ms="162817">
+      <class name="TestNGAutomation.WebTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:56:10Z" name="setUp" finished-at="2018-09-22T21:56:54Z" duration-ms="43534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signInTest()[pri:1, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:56:54Z" name="signInTest" finished-at="2018-09-22T21:57:04Z" duration-ms="10608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:57:04Z" name="tearDown" finished-at="2018-09-22T21:57:04Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:57:04Z" name="setUp" finished-at="2018-09-22T21:57:45Z" duration-ms="40547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:57:45Z" name="logInTest" finished-at="2018-09-22T21:57:50Z" duration-ms="5162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hf_challenge_123456@hf12345.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Joe Black]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:57:50Z" name="tearDown" finished-at="2018-09-22T21:57:50Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:57:50Z" name="setUp" finished-at="2018-09-22T21:58:31Z" duration-ms="41004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutTest(java.lang.String, java.lang.String)[pri:3, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:58:31Z" name="checkoutTest" finished-at="2018-09-22T21:58:53Z" duration-ms="21549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hf_challenge_123456@hf12345.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGAutomation.WebTest@4d465b11]" started-at="2018-09-22T21:58:53Z" name="tearDown" finished-at="2018-09-22T21:58:53Z" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGAutomation.WebTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- TestNgMavenAutomation Suite -->
+</testng-results>

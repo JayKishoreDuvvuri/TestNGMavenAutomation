@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNgMavenAutomation Suite" parallel="none">
+
+	<test name="Chrome Test">
+		<!-- Parameters for the Tests" -->
+		<parameter name="url"
+			value="http://automationpractice.com/index.php"></parameter>
+		<parameter name="existingUserEmail"
+			value="hf_challenge_123456@hf12345.com"></parameter>
+		<parameter name="existingUserPassword" value="12345678"></parameter>
+		<parameter name="FullName" value="Joe Black"></parameter>
+		<classes>
+			<class name="TestNGAutomation.WebTest"></class>
+		</classes>
+	</test>
+</suite>
